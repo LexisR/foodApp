@@ -1,0 +1,62 @@
+*{
+  margin: 0;
+}
+.nav-wrapper {
+  background: linear-gradient(to bottom, #C70333,#FD533A);
+
+}
+
+.title {
+  margin: auto;
+}
+
+/* first section*/
+
+.first-section {
+}
+
+.input-field {
+  border: 2px solid black;
+  border-radius: 12px;
+}
+
+#test5{
+  color: #000;
+
+}
+
+/* photos section*/
+
+.visibleBox {
+  display: block;
+  width: 310px;
+  height: 179px;
+  padding: 5px;
+
+}
+
+.hiddenBox{
+visibility: hidden;
+position:relative;
+bottom:178px;
+right:10px;
+}
+
+.visibleBox:hover .hiddenBox{
+visibility: visible;
+background:rgba(0,0,0, 0.5);
+
+}
+
+.visibleBox .hiddenBox h4 {
+  color: yellow;
+}
+.star {
+  text-align: center;
+  color: yellow;
+}
+
+img {
+  height: 97%;
+  width: 97%;
+}
