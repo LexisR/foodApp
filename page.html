@@ -12,14 +12,11 @@
 </head>
 <body>
   <nav>
-    <div class="nav-wrapper">
-     
-    </div>
+    <div class="nav-wrapper"></div>
   </nav>
   <div class="row">
     <div class="col s12">
-      <h5 class="col s8 m8 l8">Comida cerca de ti</h5>
-      <h5 class="col s4 m4 l4">Comentarios</h5>
+      <h5 class="col s8 m8 l8" id="principal-text">Comida cerca de ti</h5>
     </div>
   </div>
   <div class="row first-section ">
@@ -28,7 +25,7 @@
     </div>
     <form class="col s4 m2 l2">
       <a class='dropdown-button btn hide-on-small-only' href='#' data-activates='dropdown1'>Tipo de comida</a>
-      <a class='dropdown-button btn hide-on-large-only' href='#' data-activates='dropdown1'>Food</a>
+      <a class='dropdown-button btn hide-on-large-only' href='#' data-activates='dropdown1' id="principal-btn-1 ">search</a>
       <ul id='dropdown1' class='dropdown-content'>
         <li id="li-mex"><a href="#!">Mexicana</a></li>
         <li id="li-chi"><a href="#!">Chilena</a></li>
@@ -39,6 +36,9 @@
       </ul>
     </form>
     <div class="col  m4 l4 comments hide-on-small-only">
+      <div>
+        <h5>Comentarios</h5>
+      </div>
       <div class="row comment-1">
         <i class="material-icons prefix chat">chat</i> El restaurante es lo maximo
         <i class="material-icons prefix star">star</i>
@@ -62,22 +62,14 @@
         <i class="material-icons prefix star">star</i>
         <i class="material-icons prefix star">star</i> 
       </div>
-      <div class="row comment-4">
-        <i class="material-icons prefix chat">chat</i>100% recomendado,volvere a ir
-        <i class="material-icons prefix star">star</i>
-        <i class="material-icons prefix star">star</i>
-        <i class="material-icons prefix star">star</i>
-        <i class="material-icons prefix star">star</i> 
-        <i class="material-icons prefix star">star</i> 
-      </div>
-      </div>
     </div>
-    <div class="row ">
-      <div class="col s12">
-        <div class="col s12 m3 l3">
-          <div class="visibleBox">
-            <img src="assets/img/food-1.jpg" id="picture-1">
-            <div class="visibleBox hiddenBox waves-effect waves-light btn modal-trigger hide-on-small-only" href="#modal1">
+  </div>
+  <div class="row ">
+    <div class="col s12">
+      <div class="col s12 m3 l3">
+        <div class="visibleBox">
+          <img src="assets/img/food-1.jpg" id="picture-1">
+          <div class="visibleBox hiddenBox waves-effect waves-light btn modal-trigger" href="#modal1">
             <h4>Ranking position</h4>
             <i class="material-icons prefix star">star</i>
             <i class="material-icons prefix star">star</i>
@@ -85,23 +77,23 @@
             <i class="material-icons prefix star">star</i>
             <i class="material-icons prefix star">star</i>
           </div>
-          </div> 
-        </div>
-        <div class="col s12 m3 l3">
-          <div class="visibleBox ">
-            <img src="assets/img/food-2.jpg" id="picture-2">
-            <div class=" visibleBox hiddenBox hide-on-small-only waves-effect waves-light btn modal-trigger hide-on-small-only" href="#modal1">
-              <h4>Ranking position</h4>
-              <i class="material-icons prefix star">star</i>
-              <i class="material-icons prefix star">star</i>
-              <i class="material-icons prefix star">star</i>
-            </div>
-          </div> 
+        </div> 
+      </div>
+      <div class="col s12 m3 l3">
+        <div class="visibleBox ">
+          <img src="assets/img/food-2.jpg" id="picture-2">
+          <div class=" visibleBox hiddenBox waves-effect waves-light btn modal-trigger" href="#modal1">
+            <h4>Ranking position</h4>
+            <i class="material-icons prefix star">star</i>
+            <i class="material-icons prefix star">star</i>
+            <i class="material-icons prefix star">star</i>
+          </div>
+        </div> 
       </div>
       <div class="col s12 m3 l3">
         <div class="visibleBox">
           <img src="assets/img/food-3.jpg" id="picture-3">
-          <div class=" visibleBox hiddenBox hide-on-small-only waves-effect waves-light btn modal-trigger hide-on-small-only" href="#modal1">
+          <div class=" visibleBox hiddenBox waves-effect waves-light btn modal-trigger" href="#modal1">
             <h4>Ranking position</h4>
             <i class="material-icons prefix star">star</i>
             <i class="material-icons prefix star">star</i>
@@ -113,7 +105,7 @@
       <div class="col s12 m3 l3">
         <div class="visibleBox">
           <img src="assets/img/food-4.jpg" id="picture-4">
-          <div class=" visibleBox hiddenBox hide-on-small-only waves-effect waves-light btn modal-trigger hide-on-small-only" href="#modal1">
+          <div class=" visibleBox hiddenBox waves-effect waves-light btn modal-trigger" href="#modal1">
           <h4>Ranking position</h4>
           <i class="material-icons prefix star">star</i>
         </div>

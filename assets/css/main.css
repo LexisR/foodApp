@@ -3,21 +3,22 @@
 }
 
 body {
-  background:rgba(0,0,0, 0.1);
+  background:#2B2B2B;
 }
 
 .nav-wrapper {
-  background: linear-gradient(to bottom, rgb(255, 247, 7),rgb(255, 226, 4));
+  background: rgb(230, 109, 11);
 }
 
 .title {
   margin: auto;
+  color: #fff;
 }
 
 .btn{
   height: 39px;
   border-radius: 20px;
-  background-color: #c52828;
+  background-color: rgb(230, 109, 11);
 }
 
 /* commets section*/
@@ -68,6 +69,10 @@ body {
   color: #000;
 }
 
+#principal-text {
+  color: #ffff;
+}
+
 /* photos section*/
 
 .visibleBox {
@@ -111,19 +116,22 @@ img {
 }
 
 #btn-1 {
-  border: 2px solid yellow;
+  border: 2px solid rgb(230, 109, 11);
   border-radius: 2em;
-  background-color: #c52828;
+  background-color: rgb(230, 109, 11);
+  color:#fff;
 }
 
 #btn-2 {
-  border: 2px solid yellow;
+  border: 2px solid rgb(230, 109, 11);
   border-radius: 2em;
-  background-color: yellow;
+  background-color: rgb(230, 109, 11);
+  color:#fff;
 }
 
 #btn-3 {
-  border: 2px solid yellow;
+  border: 2px rgb(230, 109, 11);
   border-radius: 2em;
-  background-color: yellow;
+  background-color: rgb(230, 109, 11);
+  color:#fff;
 }
