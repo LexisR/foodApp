@@ -8,91 +8,147 @@
   <link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
   <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css"  media="screen,projection"/>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script type="text/javascript" src="assets/js/materialize.min.js"></script>
   <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
-  </nav>
   <nav>
     <div class="nav-wrapper">
-      <a href="#" class="brand-logo">
-        <h4 class="title">VEGETARIAN FOOD LOVERS</h4>
-      </a>
+     
     </div>
   </nav>
-  <div class="row first-section">
+  <div class="row">
     <div class="col s12">
-      <div class="col s12 map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d13320.170086624597!2d-70.60383335!3d-33.422135749999995!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2scl!4v1512506818252" width="100%" height="300vh" frameborder="0" style="border:0" allowfullscreen></iframe>
-      </div>
+      <h5 class="col s8 m8 l8">Comida cerca de ti</h5>
+      <h5 class="col s4 m4 l4">Comentarios</h5>
     </div>
   </div>
-  <div class="row">
-    <div class="col s12">
-      <h4 class="col s8  offset-s4">Comida cera de ti</h4>
+  <div class="row first-section ">
+    <div class="col s8 m6 l6 map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d13320.170086624597!2d-70.60383335!3d-33.422135749999995!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2scl!4v1512506818252" width="100%" height="300vh" frameborder="0" style="border:0" allowfullscreen></iframe>
     </div>
-  </div>
-  <div class="row">
-    <form class="col s12">
-           <div class="input-field col s m6 l6">
-          <i class="material-icons prefix">local_dining</i>
-          <input id="icon_prefix" type="text" class="validate">
-          <label for="icon_prefix">Seleccione el tipo de comida</label>
-        </div>
-     </form>
-  </div>
-  <div class="row">
-    <div class="col s12">
-      <div class="col s3 m3 l3">
-        <div class="visibleBox">
-          <img src="assets/img/food-1.jpg">
-          <div class="visibleBox hiddenBox">
-            <h4>Ranking position</h4>
-            <i class="material-icons prefix star">star</i>
-            <i class="material-icons prefix star">star</i>
-            <i class="material-icons prefix star">star</i>
-            <i class="material-icons prefix star">star</i>
-           <i class="material-icons prefix star">star</i>
-          </div>
-        </div> 
+    <form class="col s4 m2 l2">
+      <a class='dropdown-button btn hide-on-small-only' href='#' data-activates='dropdown1'>Tipo de comida</a>
+      <a class='dropdown-button btn hide-on-large-only' href='#' data-activates='dropdown1'>Food</a>
+      <ul id='dropdown1' class='dropdown-content'>
+        <li id="li-mex"><a href="#!">Mexicana</a></li>
+        <li id="li-chi"><a href="#!">Chilena</a></li>
+        <li id="li-chn"><a href="#!">China</a></li>
+        <li id="li-per"><a href="#!">Peruana</a></li>
+        <li id="li-ven"><a href="#!">Venezolana</a></li>
+        <li id="li-kor"><a href="#!">Koreana</a></li>
+      </ul>
+    </form>
+    <div class="col  m4 l4 comments hide-on-small-only">
+      <div class="row comment-1">
+        <i class="material-icons prefix chat">chat</i> El restaurante es lo maximo
+        <i class="material-icons prefix star">star</i>
+        <i class="material-icons prefix star">star</i>
+        <i class="material-icons prefix star">star</i>
+        <i class="material-icons prefix star">star</i> 
+        <i class="material-icons prefix star">star</i>        
       </div>
-      <div class="col s3 m3 l3">
-        <div class="visibleBox">
-          <img src="assets/img/food-2.jpg">
-          <div class=" visibleBox hiddenBox">
-            <h4>Ranking position</h4>
-            <i class="material-icons prefix star">star</i>
-            <i class="material-icons prefix star">star</i>
-            <i class="material-icons prefix star">star</i>
-          </div>
-        </div> 
+      <div class="row comment-2">
+        <i class="material-icons prefix chat">chat</i> Volveria ir sin duda el mejor de todos
+        <i class="material-icons prefix star">star</i>
+        <i class="material-icons prefix star">star</i>
+        <i class="material-icons prefix star">star</i>
+        <i class="material-icons prefix star">star</i> 
+        <i class="material-icons prefix star">star</i> 
       </div>
-      <div class="col s3 m3 l3">
+      <div class="row comment-3">
+        <i class="material-icons prefix chat">chat</i>La atencion es lo maximo,recomendado
+        <i class="material-icons prefix star">star</i>
+        <i class="material-icons prefix star">star</i>
+        <i class="material-icons prefix star">star</i>
+        <i class="material-icons prefix star">star</i> 
+      </div>
+      <div class="row comment-4">
+        <i class="material-icons prefix chat">chat</i>100% recomendado,volvere a ir
+        <i class="material-icons prefix star">star</i>
+        <i class="material-icons prefix star">star</i>
+        <i class="material-icons prefix star">star</i>
+        <i class="material-icons prefix star">star</i> 
+        <i class="material-icons prefix star">star</i> 
+      </div>
+      </div>
+    </div>
+    <div class="row ">
+      <div class="col s12">
+        <div class="col s12 m3 l3">
           <div class="visibleBox">
-          <img src="assets/img/food-3.jpg">
-          <div class=" visibleBox hiddenBox">
+            <img src="assets/img/food-1.jpg" id="picture-1">
+            <div class="visibleBox hiddenBox waves-effect waves-light btn modal-trigger hide-on-small-only" href="#modal1">
             <h4>Ranking position</h4>
-              <i class="material-icons prefix star">star</i>
-              <i class="material-icons prefix star">star</i>
-              <i class="material-icons prefix star">star</i>
-              <i class="material-icons prefix star">star</i>
+            <i class="material-icons prefix star">star</i>
+            <i class="material-icons prefix star">star</i>
+            <i class="material-icons prefix star">star</i>
+            <i class="material-icons prefix star">star</i>
+            <i class="material-icons prefix star">star</i>
           </div>
           </div> 
         </div>
-        <div class="col s3 m3 l3">
-          <div class="visibleBox">
-          <img src="assets/img/food-4.jpg">
-          <div class=" visibleBox hiddenBox">
+        <div class="col s12 m3 l3">
+          <div class="visibleBox ">
+            <img src="assets/img/food-2.jpg" id="picture-2">
+            <div class=" visibleBox hiddenBox hide-on-small-only waves-effect waves-light btn modal-trigger hide-on-small-only" href="#modal1">
+              <h4>Ranking position</h4>
+              <i class="material-icons prefix star">star</i>
+              <i class="material-icons prefix star">star</i>
+              <i class="material-icons prefix star">star</i>
+            </div>
+          </div> 
+      </div>
+      <div class="col s12 m3 l3">
+        <div class="visibleBox">
+          <img src="assets/img/food-3.jpg" id="picture-3">
+          <div class=" visibleBox hiddenBox hide-on-small-only waves-effect waves-light btn modal-trigger hide-on-small-only" href="#modal1">
             <h4>Ranking position</h4>
+            <i class="material-icons prefix star">star</i>
+            <i class="material-icons prefix star">star</i>
+            <i class="material-icons prefix star">star</i>
             <i class="material-icons prefix star">star</i>
           </div>
         </div> 
       </div>
+      <div class="col s12 m3 l3">
+        <div class="visibleBox">
+          <img src="assets/img/food-4.jpg" id="picture-4">
+          <div class=" visibleBox hiddenBox hide-on-small-only waves-effect waves-light btn modal-trigger hide-on-small-only" href="#modal1">
+          <h4>Ranking position</h4>
+          <i class="material-icons prefix star">star</i>
+        </div>
+      </div> 
     </div>
-  </div>  
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    </div>
+  </div> 
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h5>Restaurante Tiramisu</h5>
+      <p>Usted esta aqui</p>
+      <img src="assets/img/map.gif" class="map">
+    </div>
+    <div>
+      <button id="btn-1">Pedir a domicilio</button>
+    </div>
+    <div>
+      <h6>*Horario de trabajo: 12:00 pm a 22:00 horas</h6>
+    </div>
+    <div>
+      <h6>*Lunes a Jueves Descuento con Visa</h6>
+    </div>
+    <div>
+      <h6>*Descuento del 20% alumnas de Laboratoria Chile</h6>
+    </div>
+    <div>
+      <h6>Estacionamiento<i class="material-icons">directions_car</i></h6>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat" id="btn-3">Volver</a>
+      <a href="http://www.tiramisu.cl/" target="_blank" class="modal-action modal-close waves-effect waves-green btn-flat" id="btn-2">Ir al restaurante</a>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="assets/js/materialize.min.js"></script>
   <script src="assets/js/app.js"></script>
 </body>
 </body>
